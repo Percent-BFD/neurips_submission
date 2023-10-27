@@ -1,5 +1,7 @@
 # neurips_submission
 
+Here are 2 submissions to run
+
 ## Structure
 The folder 'neurips_submission_1' contains the docker file for the first submission.
 
