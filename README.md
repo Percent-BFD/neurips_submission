@@ -1,6 +1,10 @@
+# Model reproduction
+
+The folder 'train_model' contains the train docker file to reproduce the model.
+
 # neurips_submission
 
-Here are 2 submissions to run, both for the A100 tracks.
+Here are 2 submissions to run eval, both for the A100 tracks.
 
 ## Structure
 The folder 'neurips_submission_1' contains the eval docker file for the first submission.
