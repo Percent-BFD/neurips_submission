@@ -1,6 +1,6 @@
 # Model reproduction
 
-The folder 'train_model' contains the train docker file to reproduce the model.
+The folder 'docker_train' contains the train docker file to reproduce the model.
 
 # neurips_submission
 

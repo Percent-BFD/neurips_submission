@@ -1,0 +1,16 @@
+FROM ghcr.io/pytorch/pytorch-nightly:c69b6e5-cu11.8.0
+
+WORKDIR /submission
+
+COPY ./requirements.txt /submission/requirements.txt
+COPY ./LLaMA-Effcient-Tuning /submission/LLaMA-Effcient-Tuning
+COPY ./data-prepare /submission/data-prepare
+
+RUN pip install  -r requirements.txt
+
+#RUN cd ./data-prepare && python generate_dataset.py && cd ..
+
+RUN apt-get update && apt-get install -y git
+RUN cd /submission/LLaMA-Effcient-Tuning
+
+CMD ["sh", "./LLaMA-Effcient-Tuning/train_qwen.sh"]

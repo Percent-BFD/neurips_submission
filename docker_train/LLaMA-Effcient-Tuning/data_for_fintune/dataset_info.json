@@ -1,0 +1,45 @@
+{
+    "hh_rlhf_en": {
+    "file_name": "hh_rlhf_train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "",
+      "response": "output",
+      "history": "history"
+    },
+    "ranking": true
+    },
+    "alpaca_gpt4_en": {
+    "file_name": "alpaca_gpt4_data_en.json"
+  },
+    "nips": {
+    "file_name": "nips_data.json"
+  },
+  "nips_add_v1": {
+    "file_name": "nips_data_add_v1.json"
+  },
+  "nips_add_v2": {
+    "file_name": "nips_data_add_v2.json"
+  },
+  "nips_add_v3": {
+    "file_name": "nips_data_add_v3.json"
+  },
+  "nips_add_v4": {
+    "file_name": "nips_data_add_v4.json"
+  },
+  "nips_add_v5": {
+    "file_name": "nips_data_add_v5.json"
+  },
+  "nips_add_v6": {
+    "file_name": "nips_data_add_v6.json"
+  },
+  "nips_add_v7": {
+    "file_name": "nips_data_add_v7.json"
+  },
+  "nips_add_v8": {
+    "file_name": "nips_data_add_v8.json"
+  },
+  "nips_add_v9": {
+    "file_name": "nips_data_add_v9.json"
+  }
+}
