@@ -18,3 +18,5 @@ The folder 'neurips_submission_2' contains the eval docker file for the second s
 The folder 'docker_train' contains the train docker file to reproduce the model. Additionally, the datasets preparation scripts can be found in its subfolder.
 
 Our training datasets is uploaded to huggingface [Percent-BFD/nips_data_v7](https://huggingface.co/datasets/Percent-BFD/nips_data_v7).
+
+Our training code framework "LLaMA-Effcient-Tuning" originates from [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). We greatly appreciate him open-sourcing his excellent work.
