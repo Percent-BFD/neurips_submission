@@ -8,9 +8,8 @@ COPY ./data-prepare /submission/data-prepare
 
 RUN pip install  -r requirements.txt
 
-#RUN cd ./data-prepare && python generate_dataset.py && cd ..
+RUN cd ./data-prepare && python get_dataset.py && cd ..
 
 RUN apt-get update && apt-get install -y git
-RUN cd /submission/LLaMA-Effcient-Tuning
 
 CMD ["sh", "./LLaMA-Effcient-Tuning/train_qwen.sh"]
